@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNSET SAFARIS</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+}
+
+ header{
+                        background-color:rgb(29, 29, 106);
+                        color: #f5f5f0;
+                        padding: 5px;
+                        display: flex;
+                        justify-content: space space-between;
+                        align-items: center;
+                    }
+                  nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+/* Underline animation */
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #a5d6a7;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #2e7d32;
+    text-align: center;
+}
+
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.info, .form {
+    flex: 1;
+    min-width: 280px;
+}
+
+.info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #1b5e20;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2e7d32;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+      <header>
+                             <div class="nav-logo">
+                  <img src="images/flat-vintage-travel-background_23-2148189177.avif" width="100px" class="nav-logo"  ><br>
+                </div>
+                    <h1>SUNSET SAFARIS</h1>
+
+                    <nav>
+                
+                        <a href="home.html">Home</a>
+                        <a href="about.html">About us</a>
+                        <a href="PACKAGES">packages</a>
+                        <a href="contact us.html">Contact Us</a>
+                    </nav>
+
+
+    </header>
+</header>
+
+<div class="container">
+
+<h2>Get in Touch With Us</h2>
+
+<div class="contact-grid">
+
+<!-- Contact Info -->
+<div class="info">
+    <h3>Our Details</h3>
+    <p><strong>📍Location:</strong> Ntinda, Kampala, Uganda</p>
+    <p><strong>☎️Phone:</strong> +256 700 000 000</p>
+    <p><strong>📧Email:</strong> info@sunsetsafaris.com</p>
+    <p><strong>⏱️Working Hours:</strong> Mon - Sun (8:00 AM - 6:00 PM)</p>
+</div>
+
+<!-- Contact Form -->
+<div class="form">
+    <h3>Send Us a Message</h3>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+</div>
+</div>
+
+<footer style="background-color:rgb(29, 29, 106); ;">
+<p>© 2026 Sunset Safaris Uganda | Ntinda, Kampala</p>
+</footer>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

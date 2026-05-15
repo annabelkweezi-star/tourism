@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>SUNSET SAFARIS </title>
+    <style>
+      body {
+                        margin: 0;
+                            font-family: 'Segoe UI', Arial, sans-serif;
+                        
+                        
+                    }
+
+
+        .join{
+            background-color:  #1b5e20;
+            color: white;
+            font-size: 15px;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        border-width: 1px;
+    height: 50px;
+width: 150px;
+            font-size: 15px;
+            font-weight: bold;
+transition: background-color 0.3s;
+        }
+            
+        
+
+        .join:hover{
+            background-color: rgb(29, 29, 106);;
+            opacity: 5px;
+        }
+  header{
+                        background-color:rgb(29, 29, 106);
+                        color: #f5f5f0;
+                        padding: 5px;
+                        display: flex;
+                        justify-content: space space-between;
+                        align-items: center;
+                    }
+                  nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+/* Underline animation */
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #a5d6a7;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+          .hero {
+            background-image: url('amanda-phung-sunset-lanikai-pillbox.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+.overlay {
+            background-color: rgba(0,0,0,0.4);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .nav-logo {
+            float: left;
+        }
+
+        .flex-container {
+  display: flex;
+  flex-wrap: wrap;          /* allows multiple rows */
+  gap: 16px;                /* space between cards */
+  justify-content: center;  /* center everything */
+  padding: 10px;
+}
+
+.cardd {
+  flex: 1 1 200px;          /* responsive card size */
+  max-width: 220px;
+  text-align: center;
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+   background: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.cardd img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;        /* prevents stretching */
+  border-radius: 8px;
+}
+
+.cardd p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.cardd:hover{
+            transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(46,125,50,0.3);
+        }
+        
+.services h3, .news h3{
+    color: #2e7d32;
+}
+        .services .cards, .news .cards{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+            
+            
+             
+        .card{
+            background:whitesmoke;
+            padding: 20px;
+            width: 250px;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(6, 196, 63, 0.566);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+             border: #2e7d32;
+             
+        }
+        .card:hover{
+            transform: translateY(-10PX);
+            box-shadow: 0 10px 25px rgba(o,o,o,0.2);
+        }
+        }
+        .impact{
+            background: #2e7d32;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        /*descendant class*/
+        .impact div{
+            margin: 20px;
+            font: 1.2em;
+        }
+        .about, .services, .impact{
+            text-align: center;
+        }
+        footer {
+    background-color:rgb(29, 29, 106);;;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+      
+                 
+    </style>
+</head>
+<body>
+     <header>
+                             <div class="nav-logo">
+                  <img src="images/flat-vintage-travel-background_23-2148189177.avif" width="100px" class="nav-logo"  ><br>
+                </div>
+                    <h1>SUNSET SAFARIS</h1>
+
+                    <nav>
+                
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About us</a>
+                        <a href="PACKAGES">packages</a>
+                        <a href="contact us.html">Contact Us</a>
+                    </nav>
+
+
+    </header>
+    <section class="hero">
+    <div class="overlay">
+        
+        <h2 class="para">Chasing Sunsets, Creating Memories<h2>
+        <p class="para">We provide unique and memorable safari experiences across Uganda.</p>
+
+    
+        <button  class="join">BOOK</button>
+        <button class="join">LEARN MORE</button>
+        
+    </div>
+     </section>
+       <section class="about">
+                      
+    <h2 style="background-color:  rgb(29, 29, 106);; color: white;">About Us</h2>
+    <p><strong>Based in Ntinda, Kampala, we offer unforgettable sunset safari experiences that showcase the beauty of Uganda’s wildlife. As the sun sets and the skies glow with warm golden colors, our guided safaris give you the perfect opportunity to see animals becoming more active in their natural habitat. We are committed to providing safe, comfortable, and memorable adventures that allow you to enjoy the peaceful atmosphere and stunning landscapes Uganda has to offer.
+</strong></p>
+
+    <div class="flex-container"><b></b>
+  <div class="cardd">
+    <img src="images/download (1).jpg">
+    <p>Travel Manager</p>
+  </div>
+  
+  <div class="cardd">
+    <img src="images/download (2).jpg">
+    <p>Cheif Executive Officer</p>
+  
+</div>
+
+  <div class="cardd">
+    <img src="images/images.jpg">
+    <p>Field Operatives</p>
+  
+</div>
+
+  <div class="cardd">
+    <img src="images/download.jpg">
+    <p>Executive Director</p>
+  
+</div>
+
+  <div class="cardd">
+    <img src="images/download (5).jpg">
+    <p>Our headquarters</p>
+  </div>
+   
+</div>
+</div>
+
+   </section>
+
+   <!--Services section-->
+   <section class="services">
+    <h2 style="background-color: rgb(29, 29, 106);; color: white;"> Our Programs</h2>
+    <div class="cards">
+<div class="card">
+    <h3>Customised travel packages</h3>
+    <p><b>Travel packages suitable for a family vacation and employee vacation</b></p>
+
+</div>
+<!--cards-->
+<div class="card"> 
+    <h3>Organising guided tours</h3>
+    <p><b>Tours both internationally and locally in different parts of the country</b></p>
+</div>
+
+<div class="card">
+    <h3>Booking Accomodation </h3>
+    <p><b>In the best hotels and lodges ever</b></p>
+</div>
+
+<div class="card"><b>
+<h3>Transportation</h3>
+<p>The best transportation facilities including drones, tour buses and airplane bookings </p></b>
+</div><br>
+
+
+<footer id="footer" >
+        <p> &copy 2026 Sunset Safaris| Ntinda,Kampala</p>
+    </footer>
+    
+</body>
+</html>
